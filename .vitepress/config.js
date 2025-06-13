@@ -3,20 +3,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '我的学习笔记',
   description: '记录学习历程，分享知识经验',
-  
-  // 基本配置
-  base: '/Note/', // GitHub Pages 部署时的路径，需要与仓库名匹配
+    // 基本配置
+  base: '/', // 自定义域名时使用根路径
   lang: 'zh-CN',
   
+  // 忽略死链接
+  ignoreDeadLinks: true,
+  
   // 主题配置
-  themeConfig: {
-    // 导航栏
+  themeConfig: {    // 导航栏
     nav: [
       { text: '首页', link: '/' },
       { text: '编程学习', link: '/programming/' },
       { text: '技术笔记', link: '/tech/' },
       { text: '工具使用', link: '/tools/' },
-      { text: '项目经验', link: '/projects/' }
+      { text: '项目经验', link: '/projects/' },
+      { text: '主页', link: 'https://alexander.xin', target: '_blank' }
     ],
 
     // 侧边栏
@@ -64,27 +66,28 @@ export default defineConfig({
           ]
         }
       ]
-    },
-
-    // 社交链接
+    },    // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
-    ],
-
-    // 页脚
+      { icon: 'github', link: 'https://github.com' },
+      { 
+        icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Website</title><path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 14.34c-.292.596-.736 1.096-1.285 1.451.265-.313.49-.651.674-1.01.12-.235.25-.592.293-.97-.239.154-.398.297-.682.529zm-10.273 0c-.284-.232-.443-.375-.682-.529.043.378.173.735.293.97.184.359.409.697.674 1.01-.549-.355-.993-.855-1.285-1.451zm.293-1.548c-.184-.359-.409-.697-.674-1.01.549.355.993.855 1.285 1.451.292-.596.736-1.096 1.285-1.451-.265.313-.49.651-.674 1.01-.12.235-.25.592-.293.97.239-.154.398-.297.682-.529z"/></svg>'
+        }, 
+        link: 'https://alexander.xin',
+        ariaLabel: '个人主页'
+      }
+    ],// 页脚
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present'
+      message: 'Released under the CC BY-NC-SA 4.0 License.',
+      copyright: 'Copyright © 2024-present | 本站内容仅供学习参考，转载请注明出处'
     },
 
     // 搜索
     search: {
       provider: 'local'
-    },
-
-    // 编辑链接
+    },    // 编辑链接
     editLink: {
-      pattern: 'https://github.com/yourusername/Note/edit/main/:path',
+      pattern: 'https://github.com/AlexanderJ-Carter/Note/edit/main/:path',
       text: '在 GitHub 上编辑此页'
     },
 

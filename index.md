@@ -4,28 +4,34 @@ layout: home
 hero:
   name: "我的学习笔记"
   text: "记录学习历程，分享知识经验"
-  tagline: 在这里记录我的学习过程、技术总结和项目经验
+  tagline: 从零开始的编程之旅，记录每一步成长足迹 💡
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 开始探索 →
       link: /programming/
     - theme: alt
-      text: 访问我的主页
-      link: https://alexander.xin
+      text: 查看项目
+      link: /projects/
 
 features:
   - icon: 💻
-    title: 编程学习
-    details: 记录编程语言学习过程，包括JavaScript、Python等基础知识和进阶技巧
+    title: 编程基础
+    details: 深入学习JavaScript、Python等编程语言，从语法基础到高级特性，构建扎实的编程功底
+  - icon: 🔧
+    title: 开发技术
+    details: Web开发、数据库设计、API构建等实用技术栈，理论与实践相结合的技术分享
   - icon: 🛠️
-    title: 技术笔记
-    details: 整理开发过程中遇到的技术问题和解决方案，Web开发、数据库等
-  - icon: 📚
-    title: 工具使用
-    details: 分享常用开发工具的配置和使用技巧，提高开发效率
+    title: 效率工具
+    details: Git版本控制、VS Code配置、开发环境搭建等工具使用技巧，提升开发效率
   - icon: 🚀
-    title: 项目经验
-    details: 记录项目开发过程中的经验教训，架构设计和最佳实践
+    title: 项目实战
+    details: 真实项目开发经验分享，从需求分析到上线部署，完整的项目开发流程记录
+  - icon: 📖
+    title: 学习方法
+    details: 分享有效的学习策略和方法，如何高效学习新技术，建立知识体系
+  - icon: 🎯
+    title: 最佳实践
+    details: 代码规范、架构设计、性能优化等开发最佳实践，提升代码质量和可维护性
 ---
 
 ## 最新更新

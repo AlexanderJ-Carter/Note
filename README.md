@@ -1,6 +1,6 @@
 # 📚 Alexander's Learning Notes
 
-[![Deploy Status](https://github.com/username/repository/workflows/Deploy/badge.svg)](https://github.com/username/repository/actions)
+[![Deploy Status](https://github.com/AlexanderJ-Carter/repository/workflows/Deploy/badge.svg)](https://github.com/AlexanderJ-Carter/repository/actions)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![VitePress](https://img.shields.io/badge/Built%20with-VitePress-646CFF.svg)](https://vitepress.dev/)
 
@@ -31,31 +31,6 @@
 - **问题解决** - 常见技术难题的解决方案集合
 
 ## 🚀 快速开始
-
-### 环境要求
-
-- Node.js >= 18.0.0
-- npm >= 8.0.0
-
-### 本地开发
-
-```bash
-# 克隆仓库
-git clone https://github.com/username/repository.git
-cd repository
-
-# 安装依赖
-npm install
-
-# 启动开发服务器 (http://localhost:5173)
-npm run docs:dev
-
-# 构建生产版本
-npm run docs:build
-
-# 预览构建结果
-npm run docs:preview
-```
 
 ### 项目结构
 

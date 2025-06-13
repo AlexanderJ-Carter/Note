@@ -1,6 +1,6 @@
 # 📚 Alexander's Learning Notes
 
-[![Deploy Status](https://github.com/AlexanderJ-Carter/repository/workflows/Deploy/badge.svg)](https://github.com/AlexanderJ-Carter/repository/actions)
+![GitHub Repo stars](https://img.shields.io/github/stars/AlexanderJ-Carter/Note?style=social)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![VitePress](https://img.shields.io/badge/Built%20with-VitePress-646CFF.svg)](https://vitepress.dev/)
 

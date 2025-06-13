@@ -4,7 +4,8 @@ layout: home
 hero:
   name: "我的学习笔记"
   text: "记录学习历程，分享知识经验"
-  tagline: 在这里记录我的学习过程、技术总结和项目经验  actions:
+  tagline: 在这里记录我的学习过程、技术总结和项目经验
+  actions:
     - theme: brand
       text: 开始阅读
       link: /programming/

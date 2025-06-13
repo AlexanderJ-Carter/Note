@@ -30,8 +30,8 @@
 
 ## 内容导航
 
-| 主题 | 描述 | 状态 |
-|------|------|------|
-| [JavaScript 基础](./javascript-basics) | JS 语法、DOM 操作、异步编程 | ✅ 完成 |
-| [Python 入门](./python-intro) | Python 基础语法和常用库 | 🚧 进行中 |
-| [数据结构与算法](./data-structures) | 算法学习和题目练习 | 📝 计划中 |
+| 主题                                   | 描述                        | 状态     |
+| -------------------------------------- | --------------------------- | -------- |
+| [JavaScript 基础](./javascript-basics) | JS 语法、DOM 操作、异步编程 | ✅ 完成   |
+| [Python 入门](./python-intro)          | Python 基础语法和常用库     | 🚧 进行中 |
+| [数据结构与算法](./data-structures)    | 算法学习和题目练习          | 📝 计划中 |

@@ -975,4 +975,4 @@ function knapsack(weights, values, capacity) {
 
 ---
 
-*最后更新: 2024年12月*
+*最后更新: 2025年6月*

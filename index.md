@@ -41,7 +41,7 @@ features:
 :::
 
 ### 近期内容
-- [JavaScript 基础](/programming/javascript-basics) - 2024年最新更新
+- [JavaScript 基础](/programming/javascript-basics) - 2025年最新更新
 - [Git 使用指南](/tools/git-guide) - 版本控制完整教程
 - [VS Code 配置](/tools/vscode-setup) - 打造高效开发环境
 
@@ -64,4 +64,4 @@ features:
 
 ---
 
-*最后更新: 2024年12月*
+*最后更新: 2025年6月*

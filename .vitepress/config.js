@@ -50,8 +50,6 @@ export default defineConfig({
                     items: [
                         { text: '技术概览', link: '/tech/' },
                         { text: 'Web 开发', link: '/tech/web-development' },
-                        { text: '数据库', link: '/tech/database' },
-                        { text: '云服务', link: '/tech/cloud-services' },
                     ],
                 },
             ],
@@ -62,10 +60,6 @@ export default defineConfig({
                         { text: '工具清单', link: '/tools/' },
                         { text: 'Git 使用指南', link: '/tools/git-guide' },
                         { text: 'VS Code 配置', link: '/tools/vscode-setup' },
-                        {
-                            text: '开发环境搭建',
-                            link: '/tools/dev-environment',
-                        },
                     ],
                 },
             ],
@@ -84,15 +78,10 @@ export default defineConfig({
             ],
         }, // 社交链接
         socialLinks: [
-            { icon: 'github', link: 'https://github.com' },
-            {
-                icon: {
-                    svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Website</title><path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm5.568 14.34c-.292.596-.736 1.096-1.285 1.451.265-.313.49-.651.674-1.01.12-.235.25-.592.293-.97-.239.154-.398.297-.682.529zm-10.273 0c-.284-.232-.443-.375-.682-.529.043.378.173.735.293.97.184.359.409.697.674 1.01-.549-.355-.993-.855-1.285-1.451zm.293-1.548c-.184-.359-.409-.697-.674-1.01.549.355.993.855 1.285 1.451.292-.596.736-1.096 1.285-1.451-.265.313-.49.651-.674 1.01-.12.235-.25.592-.293.97.239-.154.398-.297.682-.529z"/></svg>',
-                },
-                link: 'https://alexander.xin',
-                ariaLabel: '个人主页',
-            },
-        ], // 页脚
+            { icon: 'github', link: 'https://github.com/AlexanderJ-Carter' },
+        ],
+
+        // 页脚
         footer: {
             message: 'Released under the CC BY-NC-SA 4.0 License.',
             copyright:

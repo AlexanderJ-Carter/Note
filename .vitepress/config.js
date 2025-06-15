@@ -10,12 +10,47 @@ export default defineConfig({
     // 忽略死链接
     ignoreDeadLinks: true,
 
+    // Head 配置 - 添加 MathJax 支持
+    head: [
+        [
+            'script',
+            {
+                src: 'https://polyfill.io/v3/polyfill.min.js?features=es6'
+            }
+        ],
+        [
+            'script',
+            {
+                id: 'MathJax-script',
+                async: true,
+                src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+            }
+        ],
+        [
+            'script',
+            {},
+            `
+            window.MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+                    displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],
+                    processEscapes: true,
+                    processEnvironments: true
+                },
+                options: {
+                    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+                }
+            };
+            `
+        ]
+    ],
+
     // 主题配置
-    themeConfig: {
-        // 导航栏
+    themeConfig: {        // 导航栏
         nav: [
             { text: '首页', link: '/' },
             { text: '编程学习', link: '/programming/' },
+            { text: '数学笔记', link: '/math/' },
             { text: '技术笔记', link: '/tech/' },
             { text: '工具使用', link: '/tools/' },
             { text: '项目经验', link: '/projects/' },
@@ -41,6 +76,14 @@ export default defineConfig({
                             text: '数据结构与算法',
                             link: '/programming/data-structures',
                         },
+                    ],                },
+            ],
+            '/math/': [
+                {
+                    text: '数学笔记',
+                    items: [
+                        { text: '数学概览', link: '/math/' },
+                        { text: '矩阵计算', link: '/math/matrix-calculation' },
                     ],
                 },
             ],
@@ -106,11 +149,10 @@ export default defineConfig({
                 timeStyle: 'medium',
             },
         },
-    },
-
-    // Markdown 配置
+    },    // Markdown 配置
     markdown: {
         lineNumbers: true,
         theme: 'github-dark',
+        math: true,
     },
 });
